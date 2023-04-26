@@ -18,9 +18,9 @@ struct FName
 修补UFunction结构
 You can also use void * instead of it
 也可以用void*代替它*/
-struct UObject
+class UObject
 {
-
+public:
 };
 class UFunction public:UObject
 {
