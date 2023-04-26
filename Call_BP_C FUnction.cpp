@@ -22,8 +22,9 @@ struct UObject
 {
 
 };
-struct UFunction public:UObject
+class UFunction public:UObject
 {
+public:
 
 };
 /*UFunction is a C++function recognized by the Unreal Engine 4 (UE4) reflection system. 
